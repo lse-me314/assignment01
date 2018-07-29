@@ -1,0 +1,79 @@
+---
+title: 'ME314: Lab Session 1'
+author: "Kenneth Benoit and Christian Müller"
+date: "20 July 2018"
+output: beamer_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Plan for today
+
+- Using the RStudio server
+- Introduction to Git and GitHub
+- Installation of R, RStudio, and `quanteda`
+- Working with a basic assignment
+
+## Accessing and using RStudio server
+
+You should try accessing this server:
+
+[https://me314.hpccloud.lse.ac.uk](https://me314.hpccloud.lse.ac.uk)
+
+## Gitting to know (git)
+
+- Git is a distributed version control system (VCS)
+- Git was written to manage the source code of the Linux kernel
+- __Luckily, we will only need a small subset of the available commands__
+- Those commands will allow you to:
+    1. Download (`clone` and then `pull`) assignments from a centralized place (`repository` or `repo`) hosted at GitHub
+    2. "Stage" your changes to the repository
+    3. "Commit" your changes to your (local) repository
+
+## Gitting to know (git) continued
+
+- Note that you will not be able to push your committed changes back to the original repository, because you will not have permissions to do this.  
+- More advanced users might choose to fork the repo and set an upstream remote to fetch changes.  See [this resource](https://help.github.com/articles/fork-a-repo/) for details (entirely optional!)
+
+## Installing git
+
+- First you need the `git` software itself. Download it from <https://git-scm.com/downloads>.
+- Now you have two ways to actually use git to do stuff for you:
+    1. Use a graphical client which works on top of the `git` software and generates a nice looking interface. We will install RStudio which contains a basic Git client.
+    2. Use the command line, e.g. `git clone ...`.
+
+## Install R and RStudio
+
+- Install R from <https://cran.rstudio.com>
+- Install RStudio from <https://www.rstudio.com/products/rstudio/download/#download>
+
+__If you already have R and RStudio installed, make sure that you have current versions:__
+
+- R: >= __3.4__
+- RStudio: No reason not to get the latest, which is __1.1.453__
+- If this proves problematic, just use use our [cloud version](https://me314.hpccloud.lse.ac.uk)
+
+## Install required R packages
+
+- Open RStudio
+- Any packages you need, for instance `ISLR`, you can install using RStudio's built-in R package manager in the "Packages" pane
+
+## Start using Git
+
+- RStudio implements a Git client that we will use to download, or `clone` in git-speak, each assignment
+- To use it, you first need the URL of the central location, or `repository`.
+- Head to the first assignment <https://github.com/lse-me214/assignment01> and click on the green button `Clone or download`
+- Copy the URL in the pop-up
+- Go back to RStudio and choose "File" > "New Project..." > "Version Control"
+- Then choose "Git" and paste the URL in the appropriate field and change the folder as needed
+- Hit "Create Project"
+- Congratulations, you cloned your first Git repo!
+
+## Frequent issues
+
+- In Windows, if RStudio cannot find Git, go to Tools > Global Options > Git/SVN and select the right Git executable. You may also need to add this route to your system Path (go to advanced settings)
+- If two-factor authentication is activated in GitHub, you'll need to create a temporary token in Settings > Developer > Personal access token.
+- If GitHub does not have your name or email, you'll need to add those using the Terminal in RStudio. Follow the instructions in the error message you get.
+
