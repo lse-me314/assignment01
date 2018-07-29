@@ -17,6 +17,7 @@
 # RStudio files
 .Rproj.user/
 .Rproj.user
+*.Rproj
 
 # produced vignettes
 vignettes/*.html
@@ -35,5 +36,3 @@ vignettes/*.pdf
 
 # Shiny token, see https://shiny.rstudio.com/articles/shinyapps.html
 rsconnect/
-
-*.Rproj
