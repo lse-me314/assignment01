@@ -4,9 +4,7 @@ author: "Your name here"
 output: html_document
 ---
 
-Assignments for the course focus on practical aspects of the concepts covered in the lectures. Assignments are based on the material covered in James et al. You will start working on the assignment in the lab sessions after the lectures, but may need to finish them after class.
-
-Please submit your assignments via Moodle by 7pm on the day of the class. We will subsequently open up solutions to the problem sets.
+Assignments for the course focus on practical aspects of the concepts covered in the lectures. Assignments are based on the material covered in James et al. You will start working on the assignment in the lab sessions after the lectures, but may need to finish them after class.  If you do not get through the whole assignment, do not worry!
 
 ## 1. Working with a sample dataset
 
