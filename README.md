@@ -10,7 +10,7 @@ You should clone this repository to get started with this lab.  The URL to clone
 
 ### Assignment
 
-Work with the file `assignment/lab-session-1.Rmd`.  You should 
+Work with the file `assignment/me314-assignment1-LASTNAME-FIRSTNAME.Rmd`.  You should 
 
 a)  Rename this file!  
 b)  Edit the file to supply any answers requested.  
@@ -20,4 +20,9 @@ If those steps worked, then you have all of the tools ready that you will need f
 
 ### Solutions
 
-Solutions to each assignment will be made available on the next day after each lab.
+Solution to Assignment 1 as:
+*  [html](solution/me314-assignment1-solution.html) 
+*  [RMarkdown](solution/me314-assignment1-solution.Rmd)  
+
+Don't worry if a lot of these operations in R were over your head.  We will take a more gradual approach building up to more complicated R code as the rest of the course progresses.  Very few students will have been able to answer all of these questions at this stage!
+
