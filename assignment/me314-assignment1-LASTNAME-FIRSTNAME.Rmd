@@ -8,7 +8,7 @@ Assignments for the course focus on practical aspects of the concepts covered in
 
 ## 1. Working with a sample dataset
 
-This exercise relates to the `College` data set, which can be found in the file `College.csv` on the website for the main course textbook (James et al 2013) http://www-bcf.usc.edu/~gareth/ISL/data.html. It contains a number of variables for 777 different universities and colleges in the US.   
+This exercise relates to the `College` data set, which can be found in the file `College.csv` on the website for the main course textbook (James et al 2013) http://faculty.marshall.usc.edu/gareth-james/ISL/data.html. It contains a number of variables for 777 different universities and colleges in the US.   
 
 The variables are:    
 * `Private` : Public/private indicator  
@@ -37,7 +37,7 @@ Before reading the data into R, it can be viewed in Excel or a text editor, if y
 Use the `read.csv()` function to read the data into `R`. Call the loaded data `college`. Make sure that you have the directory set to the correct location for the data.  You can load this in R directly from the website, using:
 
 ```{r}
-college <- read.csv("http://www-bcf.usc.edu/~gareth/ISL/College.csv")
+college <- read.csv("http://faculty.marshall.usc.edu/gareth-james/ISL/College.csv")
 ```
 
 ### 1.2 View the data
@@ -82,7 +82,7 @@ Continue exploring the data, and provide a brief summary of what you discover.
 
 ### 2. Working with the automotive dataset
 
-This exercise involves the `Auto` data set available as `Auto.csv` from the website for the main course textbook James et al. http://www-bcf.usc.edu/~gareth/ISL/data.html. Make sure that the missing values have been removed from the data. You should load that dataset as the first step of the exercise. 
+This exercise involves the `Auto` data set available as `Auto.csv` from the website for the main course textbook James et al. http://faculty.marshall.usc.edu/gareth-james/ISL/data.html. Make sure that the missing values have been removed from the data. You should load that dataset as the first step of the exercise. 
 
 (a) Which of the predictors are quantitative, and which are qualitative?
 (b) What is the *range* of each quantitative predictor? You can answer this using the `range()` function.
