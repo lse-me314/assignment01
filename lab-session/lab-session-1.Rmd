@@ -1,7 +1,5 @@
 ---
-title: "MY459: Lab Session 1"
-author: "Kenneth Benoit and Christian Müller"
-date: "30 July 2018"
+title: "MY314: Lab Session 1"
 output:
   html_document: default
   pdf_document: default
@@ -52,13 +50,13 @@ version$version.string
 
 ```
 
-This chunk should return something like `R version 3.5.1 (2018-07-02)`.
+This chunk should return something like `"R version 4.1.0 (2021-05-18)"`.
 
 ```{r, eval=FALSE}
 rstudioapi::versionInfo()$version
 ```
 
-This chunk should print `1.1.453`.
+This chunk should print something like `[1] ‘1.4.1717’`.
 ```{r}
 
 ```

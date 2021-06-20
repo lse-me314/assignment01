@@ -1,7 +1,5 @@
 ---
 title: 'ME314: Lab Session 1'
-author: "Kenneth Benoit and Christian Müller"
-date: "20 July 2018"
 output: beamer_presentation
 ---
 
@@ -16,11 +14,13 @@ knitr::opts_chunk$set(echo = TRUE)
 - Installation of R, RStudio, and `quanteda`
 - Working with a basic assignment
 
+<!--
 ## Accessing and using RStudio server
 
 You should try accessing this server:
 
 [https://me314.hpccloud.lse.ac.uk](https://me314.hpccloud.lse.ac.uk)
+-->
 
 ## Gitting to know (git)
 
@@ -51,9 +51,8 @@ You should try accessing this server:
 
 __If you already have R and RStudio installed, make sure that you have current versions:__
 
-- R: >= __3.4__
-- RStudio: No reason not to get the latest, which is __1.1.453__
-- If this proves problematic, just use use our [cloud version](https://me314.hpccloud.lse.ac.uk)
+- R: >= __4.1__ (ideally
+- RStudio: No reason not to get the latest
 
 ## Install required R packages
 
@@ -64,7 +63,7 @@ __If you already have R and RStudio installed, make sure that you have current v
 
 - RStudio implements a Git client that we will use to download, or `clone` in git-speak, each assignment
 - To use it, you first need the URL of the central location, or `repository`.
-- Head to the first assignment <https://github.com/lse-me214/assignment01> and click on the green button `Clone or download`
+- Head to the first assignment <https://github.com/lse-me314/assignment01> and click on the green button `Clone or download`
 - Copy the URL in the pop-up
 - Go back to RStudio and choose "File" > "New Project..." > "Version Control"
 - Then choose "Git" and paste the URL in the appropriate field and change the folder as needed
