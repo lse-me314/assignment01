@@ -1,6 +1,8 @@
 ---
 title: 'ME314: Lab Session 1'
-output: beamer_presentation
+output:
+  beamer_presentation: default
+  slidy_presentation: default
 ---
 
 ```{r setup, include=FALSE}
